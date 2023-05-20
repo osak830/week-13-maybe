@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Square</title>
+</head>
+<body onload="draw()">
+
+    <canvas id="sketch" width="300" height="300"></canvas>
+
+    <script>
+        function draw() {
+            var sketch = document.getElementById("sketch");
+            var context = sketch.getContext("2d");
+
+            context.fillStyle = "#0000ff"; // generic blue color short code
+
+            context.fillRect(100, 100, 100, 100); // context.fillRect(x, y, width, height)
+
+        }
+
+    </script>
+</body>
+</html>
